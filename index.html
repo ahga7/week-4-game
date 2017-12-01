@@ -1,0 +1,79 @@
+<header>
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery- Crystal Collector Game</title>
+
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+
+	
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+
+
+
+
+</head>
+<body>
+<header>
+
+<h1><strong>Crystals Collector</strong></h1>
+
+</header>
+
+
+
+<div id="directions">
+	<p>You will be given a random number at the start of the game.</p>
+
+	<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+	<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. </p>
+
+	<p>The value of each crystal is hidden from you until you click on it.</p>
+
+	<p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+</div>
+
+<div id="gemDiv">
+
+<img id="red" class="gems" src="assets/images/red.jpg" alt="red crystal">
+<img id="blue" class="gems" src="assets/images/blue.jpg" alt="blue crystal">
+<img id="green" class="gems" src="assets/images/green.jpg" alt="green crystal">
+<img id="purple" class="gems" src="assets/images/purple.jpg" alt="purple crystal">
+
+
+</div>
+
+<div class="scoreboard">
+
+
+<h2 id="g">Guess the Number: <span id="target">45</span></h2>
+<h2 id="p">Player Score: <span id="playerScore"></span></h2>
+
+<div class="winsloss">
+
+<h2><strong>Wins: </strong> <span id="win"></span></h2><br>
+<h2><strong>Losses: </strong> <span id="loss"></span></h2>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+
+</body>
+
+

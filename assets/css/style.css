@@ -1,0 +1,71 @@
+	body{
+/*		background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ee/24/63/ee2463688648c0a54d312061754afe5b.gif");
+*/		font-family: 'Lobster', cursive;
+	}
+
+	header{
+		margin-right: auto;
+		margin-left: auto; 
+		background-color: blue;
+		text-align: center;
+		text-decoration: bold;
+		color: white;				
+	}
+
+
+	.gems {
+		display: inline-block;
+		margin: auto;
+		height: 150px;
+		
+
+
+  	}
+
+  	#directions {
+  		background: #99ccff;
+  		text-align: center;
+  		color: green;
+   		margin: 20px;
+  		line-height: 2;
+  		padding: 10;
+  	}
+
+  
+
+  	#g{
+  		
+  		background: teal;
+  		width: 30%;
+  		padding: 60px;
+  		text-align: center;
+		text-decoration: bold;
+		margin-top: 30px;
+  		
+  	}
+
+  	#p{
+  		
+  		background: teal;
+  		width: 30%;
+  		margin: 30px;
+  		padding: 60px;
+  		text-align: center;
+		text-decoration: bold;
+  	}
+
+
+	.winsloss{
+		background-color: teal; 
+		width: 30%;
+		height: 130px;
+		padding: 60px;
+		margin-top: 30px;
+		text-align: center;
+		text-decoration: bold;
+
+	}
+
+	.scoreboard{
+		display:flex;
+	}
